@@ -10,7 +10,7 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       {show ? (
-        <p className={show ? "show" : "hide"}>
+        <p id="para" className={show ? "show" : "hide"}>
           "Hello, I've learnt to use the full-stack evaluation tool. This makes
           me so happy"
         </p>
